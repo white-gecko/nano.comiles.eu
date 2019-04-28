@@ -1,0 +1,89 @@
+body {
+    background: #f9f9f9;
+    color: #1f1f1f;
+
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-right: 15%;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+#content {
+    padding: 15px;
+    background: white;
+    max-width: 100%;
+}
+
+h1 {
+    float: left;
+    padding-right: 5%;
+    max-width: inherit;
+}
+
+#content p {
+    text-align: justify;
+}
+
+span.contact {
+    text-align: left;
+}
+
+span.contact a {
+    color: #f00;
+    text-decoration: none;
+}
+
+span.email {
+    text-align: left;
+    padding-left: 34px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mail-closed.svg/32px-Mail-closed.svg.png) no-repeat left;
+    vertical-align: middle;
+    font-size: 2em;
+
+    float: left;
+    clear: both;
+}
+
+hr {
+    color: #f00;
+    background-color: #f00;
+    height: 1px;
+    border: none;
+}
+
+hr.clear {
+    clear: both;
+}
+
+#footer p {
+    text-align: right;
+}
+
+#footer p img {
+    vertical-align: middle;
+}
+
+#logo {
+    max-width: inherit;
+}
+
+/*------------------------- */
+@media (max-width: 980px) {
+  /* Remove the margin from the body */
+  body {
+    padding: 2px;
+  }
+}
+@media (max-width: 432px) {
+  /* Remove the margin from the body */
+  span.email {
+    padding-left: 22px;
+    background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mail-closed.svg/22px-Mail-closed.svg.png) no-repeat left;
+    vertical-align: middle;
+    font-size: 1em;
+  }
+}
